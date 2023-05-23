@@ -84,8 +84,12 @@ Los resultados muestran la generación de un diseño experimental CRD con 3 repe
 
 ## Variables
 ¿Cuáles son sus variables (dependiente(s) e independiente(s))? Explique cada una de las variables
+Variable independiente:
 
-**Respuesta:**
+Sitios: Esta variable representa los diferentes tratamientos o sitios del experimento. En este caso, los nombres de los sitios son "Parque las islas", "Comunidad Muyuna", "Colonso Chalupas" y "Herbario de UEA". Es una variable categórica que define las diferentes condiciones o grupos que se están comparando en el experimento.
+
+"Etapas", "Temperatura", "Abundancia" y "Distribución": estas son como variables dependientes: que se mencionan más adelante podrían ser consideradas como variables dependientes en un contexto más amplio. Estas variables podrían representar medidas o características que se están evaluando en relación con los diferentes tratamientos o sitios del experimento.
+
 
 
 ## Gráfica e hipótesis
