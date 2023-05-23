@@ -59,14 +59,27 @@ La hipótesis (Ha):La facilitación interespecífica favorece el establecimiento
 
 Replique el diseño realizado en el artículo en localidades del Ecuador y genere el archivo **rarespecies.csv**. 
 
-```{r crd_anfibios}
-sitios = c("Sitio1", "Chuquitos", "Chompi")
-
+```{r crd_plantas}
+install.packages("agricolae")
+library(agricolae)
+sitios <-c("Parque las islas", "Comunidad Muyuna", "Colonso Chalupas","Herbario de UEA")
+r <- 3
+seed = 100
+crd1 <-design.crd(trt= sitios,
+                  r = r,
+                  serie=2, 
+                  seed = seed,
+                  kind = "Super-Duper", 
+                  randomization = TRUE)
+crd_re <- crd1$book
+crd_re$Etapas <- NaN
+crd_re$Temperatura<- NaN
+crd_re$Abundancia<- NaN
+crd_re$Distribución<- NaN
 ```
 Explique el resultado muestra: 
 
-**Respuesta:**
-
+Los resultados muestran la generación de un diseño experimental CRD con 3 repeticiones y 2 bloques, utilizando la función design.crd() del paquete agricolae. Posteriormente, se realizan modificaciones en la copia del diseño experimental, asignando el valor NaN a ciertas columnas.
 
 
 ## Variables
