@@ -40,7 +40,7 @@ Bienvenidos al examen parcial de Métodos Cuantitativos en Ecología [MCE5 - 202
 
 * Realice la bifurcación de la carpeta del Examen
 
-* Cree una carpeta en su conputador con "Control de Cambios" usando Git
+* Cree una carpeta en su computador con "Control de Cambios" usando Git
 
 * Cada vez que responda una pregunta, envíe los cambios con un ```commit``` similar a `Apellido Nombre ha realizado el ejercicio ##`. 
 
@@ -50,7 +50,9 @@ En el estudio realizado por <a href="https://doi.org/10.1111/jvs.13185">Sanches 
 
 ## Para su potencial investigación ¿Cuál sería su hipótesis ? (Explique)
 
-**Respuesta:**
+La hipÓtesis nula (HO):La facilitación interespecífica no tiene efectos significativos en el establecimiento de especies raras ni en la reducción de las disparidades de rendimiento entre los adultos.
+
+La hipótesis (Ha):La facilitación interespecífica favorece el establecimiento de especies raras y reduce las disparidades de rendimiento entre los adultos.
 
 
 ## Muestra
